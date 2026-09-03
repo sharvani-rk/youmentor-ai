@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+langgraph
+langchain
+groq
+python-dotenv
+youtube-transcript-api
+requests
+sqlalchemy
+pydantic
+flask
+flask-cors

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "YouMentor AI",
+  "version": "1.0.0",
+  "description": "AI-powered YouTube learning assistant.",
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "http://127.0.0.1:5000/*"
+  ],
+
+  "action": {
+    "default_title": "YouMentor AI",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
